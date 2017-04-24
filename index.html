@@ -394,7 +394,7 @@
 						<div class="copyrights-menu copyright-links clearfix">
 							<a href="#">Mentions Légales</a>
 						</div>
-						PREFIX LABS &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+						PREFIX LABS &copy; <span id="copyright-year"></span>
 					</div>
 
 					<div class="col_half col_last tright">
@@ -440,6 +440,10 @@
 	<!-- Footer Scripts
 	============================================= -->
 	<script type="text/javascript" src="js/functions.js"></script>
+
+	<script>
+		document.getElementById('copyright-year').appendChild(document.createTextNode(new Date().getFullYear()));
+	</script>
 
 </body>
 </html>
