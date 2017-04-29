@@ -1178,7 +1178,7 @@ body #side-panel.dark #side-panel-trigger-close a {
 
 .dark .table-striped > tbody > tr:nth-child(odd) > td,
 .dark .table-striped > tbody > tr:nth-child(odd) > th,
-.table-striped > tbody > tr:nth-child(odd) { background-color: rgba(0,0,0,0.05); }
+.table-striped > tbody > tr:nth-child(odd) { background-color: #ebf1ff; }
 
 .dark .table-hover > tbody > tr:hover > td,
 .dark .table-hover > tbody > tr:hover > th { background-color: rgba(0,0,0,0.1); }

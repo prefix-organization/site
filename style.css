@@ -13698,3 +13698,9 @@ body:not(.no-transition) #wrapper,
     min-height: 200px;
     line-height: 115px;
 }
+.angular2{
+	background-image:url(images/angular2.png) no-repeat;
+}
+.angular2:hover{
+	background-image:url(images/angular2-black.png) no-repeat;
+}
