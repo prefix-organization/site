@@ -4,9 +4,14 @@ require_once('phpmailer/PHPMailerAutoload.php');
 
 $toemails = array();
 
-$toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+$toemails[0] = array(
+				'email' => 'marc.crucifix@gmail.com', // Your Email Address
+				'name' => 'Marc' // Your Name
+			);
+
+$toemails[1] = array(
+				'email' => 'olivier.dupre.pro@gmail.com', // Your Email Address
+				'name' => 'Olivier' // Your Name
 			);
 
 // Form Processing Messages

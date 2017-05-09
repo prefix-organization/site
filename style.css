@@ -13698,9 +13698,29 @@ body:not(.no-transition) #wrapper,
     min-height: 200px;
     line-height: 115px;
 }
-.angular2{
-	background-image:url(images/angular2.png) no-repeat;
+
+img.logo-techno {
+	cursor: pointer;
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: filter 1s; /* Safari */
+    transition: filter 1s;
 }
-.angular2:hover{
-	background-image:url(images/angular2-black.png) no-repeat;
+
+img.logo-techno:hover {
+    filter: grayscale(0%);
+}
+
+.feature-box.fbox-center.fbox-small p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+}
+
+h2{
+	font-size: 28px;
+}
+.feature-box h2{
+    color: #555;
+    text-transform: uppercase;
 }
