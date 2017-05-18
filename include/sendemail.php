@@ -5,13 +5,18 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $toemails = array();
 
 $toemails[0] = array(
-				'email' => 'marc.crucifix@gmail.com', // Your Email Address
+				'email' => 'marc.crucifix@prefix.fr', // Your Email Address
 				'name' => 'Marc' // Your Name
 			);
 
 $toemails[1] = array(
-				'email' => 'olivier.dupre.pro@gmail.com', // Your Email Address
+				'email' => 'olivier.dupre@prefix.fr', // Your Email Address
 				'name' => 'Olivier' // Your Name
+			);
+
+$toemails[2] = array(
+				'email' => 'contact@prefix.fr', // Your Email Address
+				'name' => 'Contact' // Your Name
 			);
 
 // Form Processing Messages
