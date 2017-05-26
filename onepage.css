@@ -113,9 +113,9 @@
 
 #primary-menu ul li a {
 	padding: 24px 22px;
-	font-size: 16px;
+/*	font-size: 16px;
 	font-weight: 400;
-	letter-spacing: 3px;
+	letter-spacing: 3px;*/
 }
 
 
@@ -353,7 +353,7 @@ textarea.border-form-control {
 
 .font-body { font-family: 'Roboto', sans-serif !important; }
 
-.font-primary { font-family: 'Source Sans Pro', sans-serif !important; }
+/*.font-primary { font-family: 'Source Sans Pro', sans-serif !important; }*/
 
 
 
